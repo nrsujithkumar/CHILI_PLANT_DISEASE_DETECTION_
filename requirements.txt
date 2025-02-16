@@ -4,4 +4,4 @@ scipy==1.15.1
 tensorflow==2.18.0
 #create project-environment 
 
-#use "pip install requirents.txt" command to install the dependecies in the project environment
+#and use "pip install requirents.txt" command to install the dependecies in the project environment
