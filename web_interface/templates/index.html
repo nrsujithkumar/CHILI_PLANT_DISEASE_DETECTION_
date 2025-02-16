@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chilli Plant Disease Detection</title>
+  <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Plus button for file upload -->
+    <button class="center-button" id="plus-button">+</button>
+    <!-- Hidden file input -->
+    <input type="file" id="file-input" class="file-input" accept="image/*">
+    <!-- Tooltip -->
+    <div class="tooltip" id="tooltip">Upload an image</div>
+    <!-- Processing message (hidden by default) -->
+    <div id="processing-message" style="display: none;">Processing...</div>
+  </div>
+  <!-- Container for displaying result on same page (optional) -->
+  <div id="result"></div>
+  <script src="../static/script.js"></script>
+</body>
+</html>
